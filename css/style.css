@@ -1,0 +1,949 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Sharid Style*/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #555555;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+/* ^Start Home Style*/
+
+.home {
+    height: 100vh;
+    background-image: url(../image/hero\ img.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.home .home-layout {
+    background-color: rgba(0, 0, 0, 0.77);
+    height: 100%;
+    display: flow-root;
+}
+
+.home .home-layout .home-container {
+    width: 70%;
+    margin-top: 8px;
+    margin-inline: auto;
+    display: flow-root;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 100px;
+    
+
+}
+
+.home .home-layout .home-container h3 {
+    float: left;
+
+
+}
+
+.home .home-layout .home-container .home-nav ul {
+    float: right;
+
+}
+
+.home .home-layout .home-container .home-nav ul li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.home .home-layout .home-container .home-nav ul li a {
+    color: white;
+    font-size: 15px;
+    transition: color 0.5s;
+}
+
+
+.home .home-layout .home-container .home-nav ul li:hover a {
+    color: #F7305B;
+}
+
+.home .home-layout .home-container h3 a {
+    color: #F7305B;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+.home .home-layout .home-content {
+    text-align: center;
+    margin-top: 340px;
+}
+
+.home .home-layout .home-content h4 {
+    font-size: 25px;
+    color: white;
+
+}
+
+.home .home-layout .home-content h1 {
+    font-size: 55px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #F7305B;
+    text-transform: uppercase;
+}
+
+
+
+/*^ End Home Style*/
+
+/*! Start About Style*/
+
+.about {
+    margin-top: 75px;
+}
+
+.about .about-container {
+
+    width: 80%;
+    margin-inline: auto;
+
+
+}
+
+.about .about-container .about-items {
+    display: flow-root;
+    margin-left: 152px;
+}
+
+.about .about-container .about-items .about-image-container {
+    float: left;
+    text-align: end;
+    margin-right: 46px;
+    width: 32%;
+    border: 5px solid #555555;
+    border-radius: 3px;
+
+}
+
+.about .about-container .about-items .about-image-container .about-image {
+    max-width: 100%;
+    border-radius: 3px;
+
+
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box {
+
+    transform: translate(13px, 10px);
+    position: relative;
+
+}
+
+
+.about .about-container .about-items .about-image-container .about-image-container-box .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    height: 0;
+    width: 83%;
+    left: 71px;
+    bottom: 0px;
+    transition: all 1s ease-out;
+
+}
+
+
+.about .about-container .about-items .about-image-container .about-image-container-box:hover .overlay {
+    height: 100%;
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box:hover .overlay ul {
+    opacity: 1;
+    left: 50px;
+    bottom: 100px;
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box .overlay ul li i:hover {
+    color: #F7305B;
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box .overlay ul {
+    width: fit-content;
+    margin: auto;
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    opacity: 0;
+    transition: opacity 1s;
+
+
+
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box .overlay ul i {
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+    transition: color 1s;
+}
+
+.about .about-container .about-items .about-image-container .about-image-container-box .overlay ul li {
+    display: inline-block;
+    margin: auto;
+
+
+}
+
+.about .about-container .about-items .about-content {
+    float: left;
+    vertical-align: middle;
+    width: 46%;
+
+}
+
+.about .about-container .about-items .about-content p {
+    max-width: 400px;
+    margin-block: 10px;
+    line-height: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.about .about-container .about-items .about-content .h3 {
+    position: relative;
+    font-size: 20px;
+}
+
+.about .about-container .about-items .about-content .h3::before {
+    content: "";
+    position: absolute;
+    background-color: #F7305B;
+    height: 72%;
+    top: 3px;
+    left: -6px;
+    width: 2px;
+
+
+}
+
+.about .about-container .about-items .about-content .about-ul-items {
+    display: flow-root;
+}
+
+.about .about-container .about-items .about-content .about-ul-items ul {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.about .about-container .about-items .about-content .about-ul-items ul li {
+    font-size: 16px;
+    margin: 5px;
+}
+
+.about .about-container .about-items .about-content .about-ul-items ul li span {
+    font-weight: 400;
+    color: black;
+}
+
+.about .about-container .about-items .about-content button {
+    padding: 10px;
+    border: 1px solid #F7305B;
+    background-color: #F7305B;
+    border-radius: 3px;
+    transition: background-color 1s;
+}
+
+.about .about-container .about-items .about-content button:hover {
+    background-color: red;
+
+}
+
+.about .about-container .about-items .about-content button,
+.about .about-container .about-items .about-content button a {
+    color: white;
+    font-size: 13px;
+}
+
+/*! End About Style */
+
+
+/*&  Start Service Style */
+.service {
+    background-color: #F1F1F1;
+    margin-block: 45px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    display: flow-root;
+}
+
+.service .service-container {
+    width: 80%;
+    margin: auto;
+    margin-block: 45px;
+    display: flow-root;
+}
+
+.service .service-container .Ourservices h2 {
+    color: rgba(21, 21, 21, 0.744);
+    font-size: 30px;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+}
+
+.service .service-container .Ourservices h2::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    bottom: -26px;
+    margin-bottom: 10px;
+    left: 27px;
+    border-block: 0.5px solid #F7305B;
+}
+
+.service .service-container .Ourservices h2::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    bottom: -23px;
+    left: 13px;
+    border-top: 0.5px solid #F7305B
+}
+
+.service .service-container .cards-container {
+    display: flow-root;
+    margin: 20px auto;
+    width: 73%;
+}
+
+.service .service-container .cards-container .card-content {
+    display: flow-root;
+    float: left;
+    width: 25%;
+
+}
+
+.service .service-container .cards-container .card-content .card {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.service .service-container .cards-container .card-content .card h2 {
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 17px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.service .service-container .cards-container .card-content .card p {
+    line-height: 23px;
+    margin: auto;
+    margin-top: 12px;
+    max-width: 192px;
+}
+
+.service .service-container .cards-container .card-content .card i {
+    color: #F7305B;
+    margin-top: 7px;
+    font-size: 13px;
+    transition: font-size 1s;
+}
+
+.service .service-container .cards-container .card-content .card:hover {
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: background-color 2s;
+    border-radius: 3px;
+
+}
+
+.service .service-container .cards-container .card-content .card:hover i {
+    font-size: 17px;
+}
+
+/*&  End Service Style */
+
+
+/*~  Start Portfiol Style */
+
+.portfiol .portfiol-container {
+    width: 75%;
+    margin: auto;
+    display: flow-root;
+
+}
+
+.portfiol .portfiol-container h2 {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 40px;
+}
+
+.portfiol .portfiol-container h2::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    bottom: -26px;
+    margin-bottom: 10px;
+    left: 47px;
+    border-block: 0.5px solid #F7305B;
+}
+
+.portfiol .portfiol-container h2::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    bottom: -23px;
+    left: 35px;
+    border-top: 0.5px solid #F7305B
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container {
+    width: 80%;
+    margin: auto;
+}
+
+.portfiol .portfiol-container .portfiol-links {
+
+    margin-block: 25px;
+    margin: auto;
+    width: 44%;
+}
+
+.portfiol .portfiol-container .portfiol-links ul {
+    margin-block: 20px;
+    text-align: center;
+
+}
+
+.portfiol .portfiol-container .portfiol-links ul li a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    transition: color 0.5s;
+
+
+}
+.portfiol .portfiol-container .portfiol-links ul li a:hover{
+    color: #F7305B;
+}
+.portfiol .portfiol-container .portfiol-links ul li {
+    display: inline-block;
+    padding-inline: 2px;
+    font-size: 15px;
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content {
+    float: left;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card {
+    width: 94%;
+    margin: auto;
+    position: relative;
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card::after {
+
+    height: 100%;
+    width: 100%;
+    content: "";
+    left: 0;
+    bottom: 2px;
+    position: absolute;
+    transition: background-color 1s;
+
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card:hover::after {
+    background-color: rgba(0, 0, 0, 0.5);
+
+
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card i {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card:hover i {
+    opacity: 1;
+    color: #F7305B;
+}
+
+.portfiol .portfiol-container .portfiol-first-cards-container .portfiol-card-content .card img {
+    width: 100%;
+}
+
+/*~  End Portfiol Style */
+
+/*^ Start info Style */
+.info {
+    margin-block: 30px;
+    background-color: #F1F1F1;
+}
+
+.info .info-container {
+
+    width: 80%;
+    padding: 42px;
+    margin: auto;
+}
+
+.info .info-container .info-cards-container {
+    display: flow-root;
+    width: 75%;
+    margin: auto;
+
+}
+
+.info .info-container .info-cards-container .info-card-content {
+    width: 20%;
+    float: left;
+    text-align: center;
+}
+
+.info .info-container .info-cards-container .info-card-content .card {
+    width: 100%;
+}
+
+.info .info-container .info-cards-container .info-card-content .card i {
+    font-size: 20px;
+    color: #F7305B;
+}
+
+.info .info-container .info-cards-container .info-card-content .card h3,
+.info .info-container .info-cards-container .info-card-content .card h4 {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.info .info-container .info-cards-container .info-card-content .card h3 {
+    font-size: 11px;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.info .info-container .info-cards-container .info-card-content .card h4 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/*^ End info Style */
+
+
+/** Start Testimonial Style */
+.testimonial {
+    margin-bottom: 30px;
+}
+
+.testimonial .testimonial-container {
+    width: 40%;
+    margin: auto;
+}
+
+.testimonial .testimonial-container h2 {
+    color: rgba(21, 21, 21, 0.744);
+    font-size: 30px;
+    margin: auto;
+    position: relative;
+    width: fit-content;
+}
+
+.testimonial .testimonial-container h2::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    bottom: -26px;
+    margin-bottom: 10px;
+    left: 27px;
+    border-block: 0.5px solid #F7305B;
+}
+
+.testimonial .testimonial-container h2::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    bottom: -23px;
+    left: 13px;
+    border-top: 0.5px solid #F7305B
+}
+
+.testimonial .testimonial-container .testimonial-container-cont {
+    background-color: #F1F1F1;
+    display: flow-root;
+    margin-top: 46px;
+    position: relative;
+}
+
+.testimonial .testimonial-container .testimonial-container-cont::before {
+    position: absolute;
+    content: "";
+    border-top: 183px solid transparent;
+    border-left: 257px solid #f7305b;
+    ;
+    left: 0px;
+    transform: rotateX(185deg);
+    top: 0px;
+    width: 0;
+    height: 0;
+
+
+}
+
+.testimonial .testimonial-container .testimonial-contents {
+    width: 76%;
+    display: flow-root;
+    margin: auto;
+    margin-top: 43px;
+    position: relative;
+
+}
+
+.testimonial .testimonial-container h2 {
+    text-align: center;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-img,
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont {
+    float: left;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont p {
+    max-width: 387px;
+
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont p,
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont h3,
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont h4 {
+    margin: 20px;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont h4 a {
+    color: #555555;
+    margin-left: 5px;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-img {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    border-radius: 50%;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont .testimonial-cont-rating i {
+    color: gold;
+}
+
+.testimonial .testimonial-container .testimonial-contents .testimonial-cont .testimonial-cont-rating {
+    margin-bottom: 10px;
+}
+
+.testimonial .testimonial-container .testimonial-container-btn .btn1 {
+    background-color: #F7305B;
+    width: 10px;
+    height: 2px;
+    border: 50%;
+
+}
+
+/** End Testimonial Style */
+
+/*^ Start Blog Style */
+
+.blog {
+    background-color: #F1F1F1;
+    margin-block: 100px;
+    display: flow-root;
+}
+
+.blog .blog-container {
+    background-color: #F1F1F1;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.blog .blog-container .blog-items {
+    display: flow-root;
+    margin: auto;
+    margin-block: 60px;
+    width: 78%;
+}
+
+.blog .blog-container .blog-items .blog-item {
+    float: left;
+    width: 33.33%;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card {
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: auto;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card .cont {
+    width: 100%;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card .cont.iframe {
+    height: 200px;
+}
+
+.blog .blog-container h2 {
+    width: fit-content;
+    margin: auto;
+    margin-block: 30px;
+    position: relative;
+    font-size: 40px;
+}
+
+.blog .blog-container h2::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    bottom: -26px;
+    margin-bottom: 10px;
+    left: 47px;
+    border-block: 0.5px solid #F7305B;
+}
+
+.blog .blog-container h2::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    bottom: -23px;
+    left: 35px;
+    border-top: 0.5px solid #F7305B
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card a,
+.blog .blog-container .blog-items .blog-item .blog-card h3,
+.blog .blog-container .blog-items .blog-item .blog-card p {
+    margin: 15px;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card a {
+    color: #333333;
+    font-weight: 200px;
+    font-size: 24px;
+    transition: color 0.5s;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card a:hover {
+    color: #F7305B;
+}
+
+.blog .blog-container .blog-items .blog-item .blog-card h3,
+.blog .blog-container .blog-items .blog-item .blog-card p,
+.blog .blog-container .blog-items .blog-item .blog-card .wi {
+
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+
+/*^ End Blog Style */
+
+/*todo Start Contact Style*/
+
+.contact {
+    background-color: #FFFFFF;
+    margin: 20px;
+}
+
+.contact .contact-container {
+    width: 80%;
+    margin: auto;
+
+}
+
+
+.contact .contact-container h2 {
+    width: fit-content;
+    margin: auto;
+    margin-block: 30px;
+    position: relative;
+    font-size: 40px;
+}
+.contact .contact-container h2::after {
+    content: "";
+    position: absolute;
+    width: 61px;
+    height: 10px;
+    bottom: -26px;
+    margin-bottom: 10px;
+    left: 47px;
+    border-block: 0.5px solid #F7305B;
+}
+
+.contact .contact-container h2::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 12px;
+    bottom: -23px;
+    left: 35px;
+    border-top: 0.5px solid #F7305B
+}
+.contact .contact-container .contact-items {
+
+    width: 50%;
+    margin: auto;
+
+}
+
+.contact .contact-container .contact-items .contact-item {
+
+    display: flow-root;
+
+}
+
+.contact .contact-container .contact-items .contact-item div {
+    float: left;
+    width: 100%;
+
+}
+
+.contact .contact-container .contact-items .contact-item .text1,
+.contact .contact-container .contact-items .contact-item .text2 {
+    display: flow-root;
+    width: 50%;
+}
+
+.contact .contact-container .contact-items .contact-item .text1 input,
+.contact .contact-container .contact-items .contact-item .text2 input {
+    width: 90%;
+    margin-inline: 2px;
+   
+}
+.contact .contact-container .contact-items .contact-item .text3 input {
+    width: 95%;
+    
+}
+
+
+
+.contact .contact-container .contact-items .contact-item input {
+
+    height: 40px;
+}
+
+.contact .contact-container .contact-items .contact-item input,
+.contact .contact-container .contact-items .contact-item .texta1 {
+    border: 2px solid #F1F1F1;
+    border-radius: 4px;
+    margin: 10px 3px;
+
+}
+
+.contact .contact-container .contact-items .contact-item .texta1 {
+    height: 80px;
+    width: 95%;
+    margin: 10px 3px;
+}
+
+
+
+
+
+.contact .contact-container .contact-items .contact-item button {
+
+    background-color: #F7305B;
+    border: 1pc solid transparent;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+
+/*todo End Contact Style*/
+
+
+
+
+
+/*& Start footer Style*/
+.footer {
+    background-color: #333333;
+}
+
+.footer .footer-container {
+    margin: auto;
+    padding-block: 40px;
+    width: 30%;
+    text-align: center;
+}
+
+.footer .footer-container .footer-icons {
+    width: fit-content;
+    margin: auto;
+    font-size: 18px;
+
+}
+
+.footer .footer-container .footer-icons a {
+    padding-inline: 6px;
+    color: white;
+    transition: color 0.5s;
+}
+
+.footer .footer-container .footer-icons a:hover {
+    color: #ff305b
+}
+
+.footer .footer-container .footer-copy-right {
+    margin-top: 20px;
+
+}
+
+.footer .footer-container .footer-copy-right span,
+.footer .footer-container .footer-copy-right h3 {
+    font-size: 16px;
+}
+
+.footer .footer-container .footer-copy-right h3 {
+    color: #F1F1F1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.footer .footer-container .footer-copy-right span a {
+    color: #ff305b;
+
+}
+
+/*& End footer Style*/
